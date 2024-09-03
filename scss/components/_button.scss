@@ -1,3 +1,4 @@
+@use "../reset/color" as *;
 .button {
     display: inline-flex;
     align-items: center;
@@ -21,25 +22,25 @@
       scale: 0.95;
     }
     &--primary {
-      background-color: hsl(198, 93%, 60%);
+      background-color: $primary;
     }
     &--primary:hover {
-      background-color: hsl(198, 93%, 70%);
+      background-color: $primary;
     }
     &--alert {
-      background-color: hsl(158, 64%, 52%);
+      background-color: $alert;
     }
     &--alert:hover {
-      background-color: hsl(158, 64%, 62%);
+      background-color: $alert;
     }
     &--warning {
-      background-color: hsl(43, 96%, 56%);
+      background-color: $warning;
     }
     &--warning:hover {
       background-color: hsl(43, 96%, 66%);
     }
     &--error {
-      background-color: hsl(0, 91%, 71%);
+      background-color: $error;
     }
     &--error:hover {
       background-color: hsl(0, 91%, 81%);
